@@ -1,0 +1,26 @@
+.top {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #f5f7f8;
+  height: 70px; //ovo je samo privremeno
+
+  .logo {
+    display: inline-block;
+    width: 70%;
+    padding-left: 1em;
+  }
+
+  ul {
+    display: inline-block;
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      width: auto;
+      float: none;
+      padding: 0em 1em;
+    }
+  }
+}

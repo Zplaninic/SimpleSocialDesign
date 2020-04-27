@@ -1,0 +1,36 @@
+.WalletContainer {
+  margin-top: 16px;
+  padding: 0.6em 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  height: 250px;
+  text-align: center;
+
+  .imageWallet {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+  }
+
+  .currentState {
+    display: inline-block;
+  }
+
+  button {
+    background-color: #fc5b63;
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 31px;
+    border-radius: 50%;
+  }
+
+  .medio {
+    width: 50;
+    display: inline-block;
+  }
+}

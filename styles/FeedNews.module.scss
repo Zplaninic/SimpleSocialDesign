@@ -1,0 +1,29 @@
+.feedNewsContainer {
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  span {
+    font-size: 20px;
+    color: #fc5b63;
+  }
+
+  .imageAvatar {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+
+  span {
+    float: right;
+  }
+
+  .imageFeed {
+    width: 100%;
+  }
+}

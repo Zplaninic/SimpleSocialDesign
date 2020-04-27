@@ -1,0 +1,32 @@
+.badgeContainer {
+  text-align: center;
+  margin: 16px;
+  padding: 0.01em 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  .badgeImageContainer {
+    text-align: center;
+
+    img {
+      height: 110px;
+      width: 110px;
+      vertical-align: middle;
+      border-radius: 50%;
+    }
+  }
+
+  .progress {
+    border-radius: 32px;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    margin-bottom: 14px;
+
+    .progressBar {
+      width: 70%;
+      background-color: #fc5b63;
+    }
+  }
+}

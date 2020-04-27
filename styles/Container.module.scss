@@ -1,0 +1,45 @@
+.mainContainer {
+  margin-top: 71px;
+  padding: 0.01em 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  .containterRow {
+    display: grid;
+    grid-template-rows: 158px 155px 114px 155px auto;
+    grid-template-columns: 25% auto 25%;
+    grid-gap: 20px;
+
+    .Column1Row13 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .Column2Row12 {
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    .Column3Row14 {
+      grid-row-start: 1;
+      grid-row-end: 4;
+    }
+
+    .Column2Row25 {
+      grid-row-start: 2;
+      grid-row-end: 6;
+    }
+
+    .Column3Row36 {
+      grid-row-start: 3;
+      grid-row-end: 6;
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+
+    .Column1Row35 {
+      grid-row-start: 3;
+      grid-row-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+  }
+}
